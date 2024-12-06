@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F4;
+  color: #001F54;
+}
+
+header {
+  background-color: #001F54;
+  color: #F4F4F4;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #F4F4F4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #008080;
+  color: #F4F4F4;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  background-color: #FF6F00;
+  color: #F4F4F4;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+section {
+  padding: 20px;
+}
+
+.service-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+}
+
+footer {
+  background-color: #A0A0A0;
+  text-align: center;
+  padding: 10px;
+  color: #F4F4F4;
+}
