@@ -5,74 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Recruiter's Corner</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo">The Recruiter's Corner</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>The Recruiter's Corner</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Revolutionizing Talent Acquisition</h1>
+      <h2>Revolutionizing Talent Acquisition</h2>
+      <p>Providing exceptional recruitment services and strategic insights.</p>
       <button class="cta-button">Discover Our Services</button>
     </div>
   </section>
 
   <section id="about">
-    <h2>Who We Are</h2>
-    <p>
-      Dedicated to sourcing and developing top-tier recruiters equipped with the latest tools, we empower businesses with exceptional talent and strategies.
-    </p>
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p>
+        Dedicated to sourcing and developing top-tier recruiters equipped with the latest tools, we empower businesses with exceptional talent and strategies.
+      </p>
+    </div>
   </section>
 
   <section id="services">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>Recruitment Services</h3>
-        <p>Providing exceptional recruitment solutions tailored to your needs.</p>
-      </div>
-      <div class="card">
-        <h3>Strategic Consulting</h3>
-        <p>Helping you plan and implement effective workforce strategies.</p>
-      </div>
-      <div class="card">
-        <h3>Advanced Training</h3>
-        <p>Equipping recruiters with the tools for success.</p>
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Recruitment Services</h3>
+          <p>Providing exceptional recruitment solutions tailored to your needs.</p>
+        </div>
+        <div class="card">
+          <h3>Strategic Consulting</h3>
+          <p>Helping you plan and implement effective workforce strategies.</p>
+        </div>
+        <div class="card">
+          <h3>Advanced Training</h3>
+          <p>Equipping recruiters with the tools for success.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="blog">
-    <h2>Insights in Talent Acquisition</h2>
-    <p>Check out our latest articles and updates.</p>
+    <div class="container">
+      <h2>Insights in Talent Acquisition</h2>
+      <p>Check out our latest articles and updates.</p>
+    </div>
   </section>
 
   <section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="cta-button">Submit</button>
+      </form>
+    </div>
   </section>
 
   <footer>
-    <p>© 2024 The Recruiter's Corner. All rights reserved.</p>
+    <p>&copy; 2024 The Recruiter's Corner. All rights reserved.</p>
   </footer>
 </body>
 </html>
